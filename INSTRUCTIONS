@@ -1,0 +1,28 @@
+<!-- 
+
+////////// 1. Crea la cartella del progetto //////////
+
+Apri il terminale e crea una nuova cartella per il tuo progetto:
+		mkdir super-library-manager
+		cd super-library-manager
+
+////////// 2. Inizializza il progetto Node.js //////////
+
+Esegui il comando per inizializzare un nuovo progetto Node.js:
+		npm init -y
+
+Questo creerà un file package.json nella tua cartella.
+
+////////// 3. Installa le dipendenze //////////
+Installa le dipendenze necessarie, come readline-sync:
+		npm install readline-sync
+
+Questo comando:
+- Scarica il modulo readline-sync e lo aggiunge alla cartella node_modules.
+- Aggiorna automaticamente il file package.json per includere readline-sync come dipendenza.
+- Crea il file package-lock.json, che tiene traccia delle versioni esatte delle dipendenze.
+
+////////// 4. Crea i file del progetto //////////
+Crea i file necessari (esempio: app.js, library.js, user.js, premium-user.js, book.js) nella struttura corretta. 
+
+-->
